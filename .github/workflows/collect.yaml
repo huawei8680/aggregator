@@ -1,6 +1,6 @@
 name: Collect
 on:
-  # 每5天执行一次 at 00:00
+  # 每4天执行一次 at 00:00
   schedule:
     - cron: "0 4 */4 * *"
   workflow_dispatch:
